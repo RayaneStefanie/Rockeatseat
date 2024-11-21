@@ -1,0 +1,89 @@
+:root{
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  background-color: #D9D9D9;
+}
+
+#page{
+  margin: 79px 80px 146px 80px;
+}
+
+h3{
+  color: #E1624F;
+  font-weight: 16px;
+}
+
+ol h3{
+  color: #1B1B1B;
+}
+
+ul li{
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+.roxo{
+  color: #591B98;
+}
+
+.rosa{
+  color: #E5245E;
+}
+
+.laranja{
+  color: #E95E10;
+  padding-bottom: 40px;
+}
+
+#busan{
+  width: 1120px;
+  height: 660px;
+  border-radius: 27px;
+}
+
+#templo{
+  width: 1120px;
+  height: 350px;
+  border-radius: 27px;
+  margin: auto -40px;
+}
+
+#temploBeomeo{
+  width: 1120px;
+  height: 350px;
+  border-radius: 27px;
+  margin: auto -40px;
+}
+
+#parque{
+  width: 1120px;
+  height: 350px;
+  border-radius: 27px;
+  margin: auto -40px;
+}
+
+#descrição{
+  height: 16px;
+  color: #333333;
+  text-align: center;
+  padding: 40px;
+}
+
+h1{
+  height: 36px;
+  color: #1B1B1B;
+  padding-bottom: 40px;
+}
+
+ul li{
+  font-weight: 700;
+}
+
+footer img{
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 48px;
+}
