@@ -2,6 +2,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: var(--font-family);
 
   line-height: 0; /*aqui tira os espaçamentos padrão*/
   padding-block: 20px;
