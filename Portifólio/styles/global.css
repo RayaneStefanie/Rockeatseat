@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Asap", sans-serif;
+  --title-lg: 800 56px/120% var(--font-family);
+  --title-md: 800 24px/120% var(--font-family);
+  --title-sm: 800 16px/120% var(--font-family);
+
+  --font-family2: "Inconsolata", monospace;
+  --subtitle: 400 20px/120% var(--font-family2);
+
+  --font-family3: "Maven Pro", sans-serif;
+  --text-md-maven: 400 16px/140% var(--font-family3);
+  --text-sm-maven: 400 14px/140% var(--font-family3)
+}
+
+body {
+  background-image: url('../assets/Background_Intro.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.projects {
+  background-color: #16181D;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1404px;
+  height: 900px;
+}
+
+.services {
+  background-color: #0D0E11;
+  width: 1404px;
+  height: 650px;
+}
+
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid #E3646E;
+  padding: 5px;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.code-icon {
+  position: absolute;
+  height: 36px;
+  top: 17%; /* Centraliza verticalmente */
+  left: 52%; /* Centraliza horizontalmente */
+  z-index: 2;
+}
+
+h3 {
+  font: var(--subtitle);
+  color: #C0C4CE;
+  text-align: center;
+  margin-top: 58px;
+}
+
+h1 {
+  font: var(--title-lg);
+  color: #E2E4E9;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.destaque {
+  color: #E3646E;
+  text-align: center;
+}
+
+.descrição {
+  font: var(--text-sm-maven);
+  text-align: center;
+  color: #878EA1;
+  margin-top: 20px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  gap: 20px; /* Espaço entre os elementos */
+  margin-top: 80px;
+  color: #C0C4CE; /* Cor do texto */
+  font: var(--text-md-maven); /* Fonte */
+}
+
+.tech {
+  display: flex; /* Ativa Flexbox no botão individual */
+  align-items: center; /* Centraliza verticalmente texto e imagem */
+  background-color: #292C34;
+  border-radius: 50px;
+  padding: 10px 19px;
+  gap: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.tech img {
+  height: 19px; /* Altura da imagem */
+  width: 20px; /* Largura da imagem */
+}
+
+.divisãoPag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  margin-top: 94px;
+}
+
+.projects p {
+  color: #E3646E;
+  font: var(--subtitle);
+  padding-top: 82px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.projects h2 {
+  color: #E2E4E9;
+  font: var(--title-md);
+  text-align: center;
+  padding-bottom: 56px;
+}
+
+/* Container do layout com Flexbox */
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os cards se ajustem automaticamente */
+  justify-content: space-between; /* Distribui os cards com espaço entre eles */
+  gap: 24px; /* Distância entre os cards */
+  padding: 20px;
+  margin-left: 120px; /* Margem da esquerda */
+  margin-right: 120px; /* Margem da direita */
+  box-sizing: border-box; /* Para garantir que o padding não afete o tamanho total */
+}
+
+.card:hover {
+  border: solid;
+  border-color: #878EA1;
+}
+
+/* Estilos para cada card */
+.card {
+  background-color: #292C34;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position:sticky;
+  gap: 24px;
+  width: 330px;
+  height: 280px;
+}
+
+.card-2 {
+  background-color: #0D0E11;
+  border-radius: 15px;
+  border: solid;
+  border-color: #292C34;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position:sticky;
+  gap: 24px;
+  width: 280px;
+  height: 155px;
+}
+
+/* Estilos para a imagem dentro do card */
+.card img {
+  width: 100%;
+  height: 200px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.image-icons-service {
+  margin: 20px;
+}
+
+/* Estilos para o conteúdo do card */
+.card-info h3 {
+  font: var(--title-sm);
+  text-align:start;
+  margin-top: 1px;
+  margin-left: 14px;
+  margin-bottom: 1px;
+}
+
+.card-info p {
+  margin-top: -80px;
+  margin-right: 14px;
+  text-align: start;
+  margin-left: 14px;
+  font: var(--text-sm-maven);
+  color: #C0C4CE;
+}
+
+.contacts {
+  background-image: url(../assets/Background_Contacts.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1404px;
+  height: 773px;
+
+  p:nth-child(1) {
+    color: #BB72E9;
+  }
+
+  p:nth-child(3) {
+    color: #C0C4CE;
+    margin-top: -120px;
+    text-align: center;
+  }
+}
+
+footer {
+  padding: 20px; /* Espaçamento interno */
+  text-align:start;
+}
+
+.links-list {
+  list-style: none; /* Remove os marcadores da lista */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Organiza os itens verticalmente */
+  gap: 16px; /* Espaçamento entre os itens */
+  align-items: center;
+  padding: 48px;
+}
+
+.link-item {
+  display: flex;
+  align-items: center; /* Alinha ícones e texto no centro */
+  justify-content: space-between; /* Distribui os elementos */
+  background-color: #292C34; /* Cor de fundo dos links */
+  border-radius: 8px; /* Bordas arredondadas */
+  padding: 12px 16px; /* Espaçamento interno dos itens */
+  width: 400px;
+  height: 68px;
+  transition: background-color 0.3s; /* Suaviza a mudança no hover */
+}
+
+.link-item:hover {
+  border:2px solid #3996DB;
+}
+
+.link-item img {
+  width: 24px; /* Tamanho dos ícones */
+  height: 24px;
+}
+
+.link-item a {
+  flex: 1; /* O texto ocupa o espaço restante */
+  margin: 0 12px; /* Espaço ao redor do texto */
+  text-decoration: none; /* Remove o sublinhado */
+  color: #C0C4CE; /* Cor do texto */
+  font: var(--text-md-maven);
+}
